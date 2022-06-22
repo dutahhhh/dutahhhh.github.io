@@ -1,0 +1,48 @@
+*{  
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.profile{
+    width: 100%;
+    float: left;
+    color: rgb(233, 233, 240);
+    background-image: url("../image/49c238_7a2377331fb5463f970e63ce18394d61_mv2.jpg");
+    background-size: cover;
+}
+.wrapper_profile {
+    background-color: rgba(2, 2, 26, 0.301);
+    padding: 30px 20px;
+    float: left;
+    width: 100%;
+}
+.photo_name{
+    width: 60%;
+    float: left;
+    padding: 15px;
+    margin: 0 20%;
+    background-color: rgba(20, 64, 139, 0.3);
+    border-radius: 10px;
+}
+.photo_name img{
+    height: 160px;
+    width: 160px;
+    border-radius: 100%;
+    float: left;
+}
+.photo_name h1{
+    padding: 40px 50px;
+    float: left;
+}
+.detail_profile{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.detail_profile h3{
+    margin-block-end: 20px;
+}
+.detail_profile p{
+    margin-block-start: 15px;
+}
